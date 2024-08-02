@@ -18,12 +18,34 @@
 }
 } */
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 38px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
 }
 
-p {
+.intro {
+  background: #f9f7fe;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.intro h1 {
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.intro h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.intro p {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 18px;
 }
