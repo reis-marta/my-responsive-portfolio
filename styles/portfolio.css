@@ -71,3 +71,46 @@ h6 {
   padding: 5px 10px;
   width: fit-content;
 }
+
+.btn:hover {
+  color: var(--btn-color);
+  background: var(--hover-btn-color);
+}
+
+h2 {
+  font-size: 28px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.btn-outline {
+  border: 1px solid var(--btn-color);
+  background: var(--hover-btn-color);
+  color: var(--btn-color);
+  border-radius: 4px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  padding: 5px 10px;
+  display: block;
+  margin: auto;
+}
+
+.btn-outline:hover {
+  color: var(--hover-btn-color);
+  background: var(--btn-color);
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+}
