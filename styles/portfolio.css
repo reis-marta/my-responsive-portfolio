@@ -111,17 +111,19 @@ p {
   padding: 180px 20px;
 }
 
-.about h4 {
+.about h2 {
   font-size: 18px;
   font-weight: 400;
   color: var(--title-color);
 }
 
-.about h2 {
+.about h1 {
   font-size: 24px;
   font-weight: 400;
   color: var(--title-color);
 }
+
+/*media*/
 
 @media (max-width: 600px) {
   .intro {
@@ -132,11 +134,23 @@ p {
     font-size: 60px;
   }
 
-  h2 {
+  .intro-projects h2 {
     font-size: 28px;
     text-align: center;
   }
+
+  .intro .intro-projects p {
+    text-align: center;
+  }
+
+  .about h1,
+  h2,
   p {
     text-align: center;
+  }
+
+  .about a {
+    display: block;
+    margin: 0 auto;
   }
 }
