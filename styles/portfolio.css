@@ -78,13 +78,15 @@ h6 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 25px;
 }
 
 p {
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.5;
+  color: #272142;
 }
 
 .btn-outline {
@@ -107,20 +109,34 @@ p {
 
 /*About-me page*/
 
-.about {
+.content {
   padding: 180px 20px;
 }
 
-.about h2 {
+.content h2 {
   font-size: 18px;
   font-weight: 400;
   color: var(--title-color);
 }
 
-.about h1 {
+.content h1 {
   font-size: 24px;
   font-weight: 400;
   color: var(--title-color);
+}
+
+.content h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--title-color);
+  text-align: center;
+}
+
+.content p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #272142;
 }
 
 /*media*/
@@ -143,13 +159,13 @@ p {
     text-align: center;
   }
 
-  .about h1,
+  .content h1,
   h2,
   p {
     text-align: center;
   }
 
-  .about a {
+  .content a {
     display: block;
     margin: 0 auto;
   }
