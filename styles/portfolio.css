@@ -26,6 +26,38 @@
   --secondary-background-color: #f9f7fe;
 }
 
+nav {
+  padding: 15px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--p-basic-color);
+  transition: all 120ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--btn-color);
+}
+
+.logo {
+  max-height: 40px;
+}
+
 h1,
 h2,
 h3,
