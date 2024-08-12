@@ -33,18 +33,20 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img
-          class="logo d-none d-md-block"
-          src="images/logo.png"
-          alt="logo SheCodes"
-        />
-        <img
-          class="logo d-block d-md-none"
-          src="/images/logo-simbolo.jpg"
-          alt="Small Logo SheCodes"
-        />
+        <a href="/">
+          <img
+            class="logo d-none d-md-block"
+            src="images/logo.png"
+            alt="logo SheCodes"
+          />
+          <img
+            class="logo d-block d-md-none"
+            src="/images/logo-simbolo.jpg"
+            alt="Small Logo SheCodes"
+          />
+        </a>
         <ul>
-          <li><a href="/">Home</a></li>
+          <li class="active"><a href="/">Home</a></li>
           <li><a href="/about-me.html">About me</a></li>
           <li><a href="/work.html">Work</a></li>
           <li><a href="/contacts.html">Contacts</a></li>
@@ -132,7 +134,34 @@
           >
         </div>
       </div>
+      <footer>
+        <div
+          class="work-box d-flex justify-content-between m-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquery</h4>
+            <p class="text-muted">Lets work together</p>
+          </div>
+          <div>
+            <a
+              class="btn btn-branding"
+              href="mailto:marta.alexandra.reis@gmail.com"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a class="footer-email" href="mailto:marta.alexandra.reis@gmail.com"
+          >marta.alexandra.reis@gmail.com</a
+        >
+        <div class="social-links">
+          <a href="linkedin.com/in/marta-alexandra-reis">
+            <i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/reis-marta">
+            <i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </footer>
     </div>
-    <footer></footer>
   </body>
 </html>
