@@ -259,3 +259,11 @@ footer .work-box a:hover {
     margin: 0 auto;
   }
 }
+
+div.content {
+  padding-top: 40px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+}
